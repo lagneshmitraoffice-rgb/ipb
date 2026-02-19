@@ -6,32 +6,53 @@
 
   <style>
     body{
-      font-family: Arial;
+      font-family: Arial, Helvetica, sans-serif;
       background:#0e0e0e;
       color:white;
       text-align:center;
       padding-top:80px;
+      margin:0;
     }
-    button{
-      padding:15px 30px;
+
+    h1{
+      font-size:42px;
+      margin-bottom:10px;
+    }
+
+    p{
+      color:#aaa;
+      margin-bottom:40px;
+    }
+
+    .btn{
+      padding:16px 34px;
       font-size:20px;
       background:#00ffa6;
       border:none;
-      border-radius:8px;
+      border-radius:10px;
       cursor:pointer;
+      text-decoration:none;
+      color:black;
+      font-weight:bold;
+      box-shadow:0 0 20px rgba(0,255,166,0.3);
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:scale(1.05);
+      box-shadow:0 0 30px rgba(0,255,166,0.6);
     }
   </style>
 </head>
 
 <body>
 
-<h1>🚀 LM Astro Engine</h1>
-<p>Astrology Interpretation Tool</p>
+  <h1>🚀 LM Astro Engine</h1>
+  <p>Astrology Interpretation Tool</p>
 
-<br>
-<a href="./ipb.html">
-  <button>Open Interpretation Engine ✨</button>
-</a>
+  <a href="./ipb.html" class="btn">
+    Open Interpretation Engine ✨
+  </a>
 
 </body>
 </html>
