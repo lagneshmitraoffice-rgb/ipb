@@ -1,89 +1,46 @@
-export const sunHouse1Rules = [
+function interpret(){
 
-/* BASE RULE — applies to all ascendants */
-{
-  condition: { planet:"sun", house:1 },
-  effects:{
-    personality:+3,
-    confidence:+3,
-    ego:+2,
-    leadership:+2,
-    visibility:+2
-  },
-  tags:["strong_identity","leadership_presence"]
-},
+  // READ INPUTS
+  const lagna = document.getElementById("lagna").value;
+  const sunHouse = document.getElementById("sunHouse").value;
+  const resultBox = document.getElementById("result");
 
-/* FIRE ASCENDANTS */
-{
-  condition:{ planet:"sun", house:1, ascGroup:"fire" },
-  effects:{
-    courage:+2,
-    ambition:+2,
-    dominance:+2
-  },
-  tags:["born_leader"]
-},
+  // VALIDATION
+  if(!lagna || !sunHouse){
+    alert("Please enter Lagna and Sun House");
+    return;
+  }
 
-/* EARTH ASCENDANTS */
-{
-  condition:{ planet:"sun", house:1, ascGroup:"earth" },
-  effects:{
-    practicality:+2,
-    self_discipline:+2,
-    perfectionism:+2
-  },
-  tags:["analytical_leader"]
-},
+  let resultText = "";
 
-/* AIR ASCENDANTS */
-{
-  condition:{ planet:"sun", house:1, ascGroup:"air" },
-  effects:{
-    communication:+2,
-    social_visibility:+2
-  },
-  tags:["public_personality"]
-},
+  // HEADER
+  resultText += "<h2>☀️ Sun Placement Analysis</h2>";
 
-/* WATER ASCENDANTS */
-{
-  condition:{ planet:"sun", house:1, ascGroup:"water" },
-  effects:{
-    emotional_sensitivity:+2,
-    inner_conflict:+1
-  },
-  tags:["sensitive_identity"]
-},
+  // SUN IN 1ST HOUSE RULE (MASTER TEST RULE)
+  if(Number(sunHouse) === 1){
 
-/* HEALTH COMBINATION */
-{
-  condition:{ planet:"sun", house:1 },
-  effects:{
-    vitality:+2,
-    burnout_risk:+1,
-    stress:+1
-  },
-  tags:["high_energy"]
-},
+    resultText += "<h3>Sun in 1st House</h3>";
 
-/* RELATIONSHIP IMPACT */
-{
-  condition:{ planet:"sun", house:1 },
-  effects:{
-    relationship_ego:+2,
-    independence:+2
-  },
-  tags:["strong_self_will"]
-},
+    resultText += "<p><b>Personality:</b> Strong identity, natural leadership aura and high visibility in life.</p>";
 
-/* FATHER THEME */
-{
-  condition:{ planet:"sun", house:1 },
-  effects:{
-    father_influence:+2,
-    authority_figures:+1
-  },
-  tags:["father_theme"]
+    resultText += "<p><b>Confidence:</b> Strong self-belief and desire to be recognised for individuality.</p>";
+
+    resultText += "<p><b>Life Direction:</b> Self-driven personality that prefers independence and authority.</p>";
+
+    resultText += "<p><b>Health:</b> Good vitality but tendency toward burnout and stress overload.</p>";
+
+    resultText += "<p><b>Relationships:</b> Independent nature may create ego clashes in close partnerships.</p>";
+
+    resultText += "<p><b>Father Influence:</b> Strong influence of father or authority figures in shaping identity.</p>";
+
+  }
+  else{
+
+    resultText += "<h3>Rule not written yet 😄</h3>";
+    resultText += "<p>We are currently building Sun house rules one by one.</p>";
+
+  }
+
+  // SHOW RESULT
+  resultBox.innerHTML = resultText;
 }
-
-];
