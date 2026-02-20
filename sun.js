@@ -134,6 +134,139 @@ else if(lagna === 1 && sunHouse === 4){
   Building strong foundations, property and family authority.</p>
   `;
 }
+  else if(lagna === 1 && sunHouse === 5){
+
+  result += "<h3>Aries Ascendant – Sun in 5th House (Own Sign)</h3>";
+
+  result += `
+  <p><b>Sun in Own Sign</b><br>
+  Extremely strong placement. Intelligence, creativity and leadership shine.</p>
+
+  <p><b>Creativity & Intelligence</b><br>
+  Strong decision making, creativity and strategic thinking.</p>
+
+  <p><b>Children & Legacy</b><br>
+  Positive influence regarding children and legacy creation.</p>
+
+  <p><b>Recognition</b><br>
+  Fame and recognition through talent and creativity.</p>
+
+  <p><b>Life Theme</b><br>
+  Creative leadership and intellectual brilliance.</p>
+  `;
+  }
+    else if(lagna === 1 && sunHouse === 6){
+
+  result += "<h3>Aries Ascendant – Sun in 6th House</h3>";
+
+  result += `
+  <p><b>Victory Over Enemies</b><br>
+  Strong ability to defeat competitors and overcome obstacles.</p>
+
+  <p><b>Work & Service</b><br>
+  Hardworking and competitive professional nature.</p>
+
+  <p><b>Health Awareness</b><br>
+  Must avoid overwork and stress.</p>
+
+  <p><b>Life Theme</b><br>
+  Growth through competition and hard work.</p>
+  `;
+    }
+      else if(lagna === 1 && sunHouse === 7){
+
+  result += "<h3>Aries Ascendant – Sun in 7th House (Debilitated)</h3>";
+
+  result += `
+  <p><b>Debilitated Sun</b><br>
+  Challenges in partnerships and relationships.</p>
+
+  <p><b>Marriage & Partnerships</b><br>
+  Ego clashes or dominance issues possible.</p>
+
+  <p><b>Public Image</b><br>
+  Success through public dealing but requires balance.</p>
+
+  <p><b>Life Theme</b><br>
+  Learning cooperation and partnership balance.</p>
+  `;
+      }
+
+  else if(lagna === 1 && sunHouse === 8){
+
+  result += "<h3>Aries Ascendant – Sun in 8th House</h3>";
+
+  result += `
+  <p><b>Transformation & Research</b><br>
+  Interest in deep knowledge, hidden subjects and transformation.</p>
+
+  <p><b>Life Changes</b><br>
+  Sudden changes and intense experiences shape personality.</p>
+
+  <p><b>Life Theme</b><br>
+  Growth through transformation and deep life lessons.</p>
+  `;
+  }
+    else if(lagna === 1 && sunHouse === 9){
+
+  result += "<h3>Aries Ascendant – Sun in 9th House</h3>";
+
+  result += `
+  <p><b>Fortune & Dharma</b><br>
+  Strong luck and support from destiny.</p>
+
+  <p><b>Father & Mentors</b><br>
+  Positive influence from teachers and mentors.</p>
+
+  <p><b>Life Theme</b><br>
+  Growth through knowledge, travel and wisdom.</p>
+  `;
+    }
+  else if(lagna === 1 && sunHouse === 10){
+
+  result += "<h3>Aries Ascendant – Sun in 10th House</h3>";
+
+  result += `
+  <p><b>Career & Authority</b><br>
+  Strong leadership and career success potential.</p>
+
+  <p><b>Public Recognition</b><br>
+  Desire for status and recognition.</p>
+
+  <p><b>Life Theme</b><br>
+  Career success and public influence.</p>
+  `;
+  }
+  else if(lagna === 1 && sunHouse === 11){
+
+  result += "<h3>Aries Ascendant – Sun in 11th House</h3>";
+
+  result += `
+  <p><b>Income & Gains</b><br>
+  Strong income potential and influential network.</p>
+
+  <p><b>Social Circle</b><br>
+  Leadership in social groups and organisations.</p>
+
+  <p><b>Life Theme</b><br>
+  Gains through leadership and connections.</p>
+  `;
+}
+  else if(lagna === 1 && sunHouse === 12){
+
+  result += "<h3>Aries Ascendant – Sun in 12th House</h3>";
+
+  result += `
+  <p><b>Spiritual Growth</b><br>
+  Interest in spirituality, foreign lands and solitude.</p>
+
+  <p><b>Foreign Connection</b><br>
+  Possible foreign travel or settlement.</p>
+
+  <p><b>Life Theme</b><br>
+  Inner growth, spirituality and global exposure.</p>
+  `;
+}
   // =====================================================
   // FALLBACK
   // =====================================================
