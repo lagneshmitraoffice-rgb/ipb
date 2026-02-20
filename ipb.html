@@ -14,8 +14,6 @@ body{
   padding-top:60px;
 }
 
-h1{ margin-bottom:30px; }
-
 input{
   padding:12px;
   margin:10px;
@@ -33,14 +31,6 @@ button{
   border:none;
   border-radius:8px;
   cursor:pointer;
-  box-shadow:0 0 20px rgba(0,255,166,0.3);
-}
-
-button:hover{ transform:scale(1.05); }
-
-#error{
-  color:#ff7272;
-  margin-top:15px;
 }
 
 #result{
@@ -53,14 +43,13 @@ button:hover{ transform:scale(1.05); }
   background:#1c1c1c;
   padding:25px;
   border-radius:12px;
-  line-height:1.6;
 }
 </style>
 </head>
 
 <body>
 
-<h1>☀️ Sun Interpretation Lab (Prototype)</h1>
+<h1>☀️ Sun Interpretation Lab</h1>
 
 <h3>Lagna (1–12)</h3>
 <input id="lagna" type="number" min="1" max="12">
@@ -71,11 +60,14 @@ button:hover{ transform:scale(1.05); }
 <br><br>
 <button onclick="interpret()">Test Sun Rule</button>
 
-<div id="error"></div>
 <div id="result"></div>
 
-<!-- CACHE BUSTER ADDED HERE -->
-<script src="./suntest.js?v=3"></script>
+<script>
+function interpret(){
+  document.getElementById("result").innerHTML =
+  "<h2>JS Working 💥</h2><p>Sun rule engine connected.</p>";
+}
+</script>
 
 </body>
 </html>
