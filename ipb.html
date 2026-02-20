@@ -14,9 +14,7 @@ body{
   padding-top:60px;
 }
 
-h1{
-  margin-bottom:30px;
-}
+h1{ margin-bottom:30px; }
 
 input{
   padding:12px;
@@ -38,9 +36,7 @@ button{
   box-shadow:0 0 20px rgba(0,255,166,0.3);
 }
 
-button:hover{
-  transform:scale(1.05);
-}
+button:hover{ transform:scale(1.05); }
 
 #error{
   color:#ff7272;
@@ -64,7 +60,7 @@ button:hover{
 
 <body>
 
-<h1>☀️ Sun Interpretation Lab is a prototype</h1>
+<h1>☀️ Sun Interpretation Lab (Prototype)</h1>
 
 <h3>Lagna (1–12)</h3>
 <input id="lagna" type="number" min="1" max="12">
@@ -78,7 +74,8 @@ button:hover{
 <div id="error"></div>
 <div id="result"></div>
 
-<script src="./sunTest.js"></script>
+<!-- CACHE BUSTER ADDED HERE -->
+<script src="./sunTest.js?v=3"></script>
 
 </body>
 </html>
