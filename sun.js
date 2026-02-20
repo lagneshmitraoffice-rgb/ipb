@@ -104,6 +104,37 @@ else if(lagna === 1 && sunHouse === 3){
   `;
 }
   // =====================================================
+// ♈ ARIES LAGNA + SUN IN 4TH HOUSE
+// =====================================================
+else if(lagna === 1 && sunHouse === 4){
+
+  result += "<h3>Aries Ascendant – Sun in 4th House</h3>";
+
+  result += `
+  <p><b>5th Lord in House of Home & Emotional Peace</b><br>
+  The Sun in the 4th house connects intelligence with 
+  home life, property and emotional foundations.</p>
+
+  <p><b>Home & Authority</b><br>
+  The native may take leadership role within family 
+  or become central authority in domestic life.</p>
+
+  <p><b>Property & Assets</b><br>
+  Good potential for property, vehicles or real estate 
+  gains through personal effort and intelligence.</p>
+
+  <p><b>Emotional Nature</b><br>
+  Emotional peace may fluctuate due to strong ambition 
+  and career focus.</p>
+
+  <p><b>Mother Influence</b><br>
+  Strong influence of mother or homeland on life path.</p>
+
+  <p><b>Life Theme</b><br>
+  Building strong foundations, property and family authority.</p>
+  `;
+}
+  // =====================================================
   // FALLBACK
   // =====================================================
   else {
