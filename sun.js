@@ -11,7 +11,9 @@ window.interpret = function () {
 
   let result = "<h2>☀️ Sun Placement Analysis</h2>";
 
+  // =====================================================
   // ♈ ARIES LAGNA + SUN IN 1ST HOUSE
+  // =====================================================
   if(lagna === 1 && sunHouse === 1){
 
     result += "<h3>Aries Ascendant – Sun in 1st House (Exalted)</h3>";
@@ -23,38 +25,60 @@ window.interpret = function () {
     1st house in Aries, it becomes exalted and extremely powerful.</p>
 
     <p><b>Personality & Aura</b><br>
-    This gives a commanding personality, bold presence and strong 
-    self-confidence. The native naturally takes leadership roles and 
-    prefers to be at the forefront.</p>
+    Commanding personality, bold presence and strong confidence.
+    Natural leadership ability.</p>
 
     <p><b>Intelligence & Creativity</b><br>
-    As 5th lord in 1st house, intelligence becomes part of identity. 
-    The native may possess sharp decision-making ability, strategic 
-    thinking and natural creativity.</p>
+    5th lord in Lagna makes intelligence part of identity.
+    Strong decision making and creativity.</p>
 
     <p><b>Authority & Recognition</b><br>
-    Strong desire for recognition. Such individuals often rise to 
-    positions of authority or become influential in their domain.</p>
+    Strong desire to lead and gain recognition.</p>
 
-    <p><b>Ego & Dominance</b><br>
-    Because the Sun is exalted, pride and dominance can increase. 
-    The person must guard against excessive self-importance.</p>
-
-    <p><b>Health & Vitality</b><br>
-    Strong vitality and recovery power. However, over-exertion 
-    and stress may create burnout tendencies.</p>
+    <p><b>Ego Watch</b><br>
+    Must avoid pride and excessive dominance.</p>
 
     <p><b>Life Theme</b><br>
-    Leadership, individuality, courage and personal brilliance 
-    become central themes of life.</p>
+    Leadership, courage and personal brilliance.</p>
     `;
+  }
 
-  } else {
+  // =====================================================
+  // ♈ ARIES LAGNA + SUN IN 2ND HOUSE
+  // =====================================================
+  else if(lagna === 1 && sunHouse === 2){
 
+    result += "<h3>Aries Ascendant – Sun in 2nd House</h3>";
+
+    result += `
+    <p><b>5th Lord in House of Wealth</b><br>
+    Sun rules the 5th house and sits in the 2nd house of wealth,
+    speech and family.</p>
+
+    <p><b>Speech Power</b><br>
+    Authoritative speech. Words carry influence.</p>
+
+    <p><b>Wealth Creation</b><br>
+    Income through intelligence, leadership, education,
+    consulting or creative skills.</p>
+
+    <p><b>Family Dynamics</b><br>
+    Father or authority plays strong role in family life.</p>
+
+    <p><b>Knowledge → Money Link</b><br>
+    Education and knowledge directly contribute to finances.</p>
+
+    <p><b>Life Theme</b><br>
+    Wealth creation through intellect, speech and personal authority.</p>
+    `;
+  }
+
+  // =====================================================
+  // FALLBACK
+  // =====================================================
+  else {
     result += "<p>Rule not written yet for this combination ☀️</p>";
-
   }
 
   document.getElementById("result").innerHTML = result;
-
 };
