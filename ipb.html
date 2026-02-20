@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ZODIAC INTERPRETATION ENGINE</title>
+<title>LM Astro Engine – Sun Test</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
@@ -11,20 +11,23 @@ body{
   color:#fff;
   text-align:center;
 }
+
 input{
-  padding:8px;
-  margin:6px;
-  width:60px;
+  padding:10px;
+  margin:10px;
+  width:80px;
   text-align:center;
-  font-size:16px;
+  font-size:18px;
 }
+
 button{
-  padding:10px 20px;
+  padding:12px 25px;
   font-size:18px;
   background:#00ffa6;
   border:none;
   cursor:pointer;
 }
+
 #result{
   margin-top:30px;
   width:70%;
@@ -40,30 +43,20 @@ button{
 
 <body>
 
-<h1>✨ Chart Interpretation Prototype</h1>
+<h1>☀️ Sun Interpretation Lab</h1>
 
-<p>Enter Ascendant (center number first)</p>
-
-<h2>Lagna</h2>
+<h2>Lagna (1–12)</h2>
 <input id="lagna">
 
-<h2>Planets House Numbers</h2>
-Sun <input id="sun">
-Moon <input id="moon">
-Mars <input id="mars">
-Mercury <input id="mercury">
-Jupiter <input id="jupiter">
-Venus <input id="venus">
-Saturn <input id="saturn">
-Rahu <input id="rahu">
-Ketu <input id="ketu">
+<h2>Sun House (1–12)</h2>
+<input id="sunHouse">
 
 <br><br>
-<button onclick="interpret()">Generate Reading</button>
+<button onclick="interpret()">Test Sun Rule</button>
 
 <div id="result"></div>
 
-<script src="./ipb.js"></script>
+<script src="./sunTest.js"></script>
 
 </body>
 </html>
