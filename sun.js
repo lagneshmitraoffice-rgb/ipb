@@ -268,6 +268,150 @@ else if(lagna === 1 && sunHouse === 4){
   `;
 }
   // =====================================================
+// ♉ TAURUS LAGNA + SUN IN 1ST HOUSE
+// =====================================================
+else if(lagna === 2 && sunHouse === 1){
+
+  result += "<h3>Taurus Ascendant – Sun in 1st House</h3>";
+
+  result += `
+  <p><b>4th Lord in Ascendant</b><br>
+  For Taurus ascendant, the Sun rules the 4th house of home,
+  emotional peace, mother and property. When placed in the
+  1st house, these themes strongly shape personality.</p>
+
+  <p><b>Personality & Presence</b><br>
+  The native may appear dignified, proud and self-reliant.
+  Strong attachment to personal comfort and security.</p>
+
+  <p><b>Home & Property Influence</b><br>
+  Property, real estate or family background may play
+  important role in life direction.</p>
+
+  <p><b>Emotional Nature</b><br>
+  Inner emotional stability becomes a major life focus.
+  Need for personal space and independence.</p>
+
+  <p><b>Mother Influence</b><br>
+  Strong impact of mother or homeland on personality.</p>
+
+  <p><b>Life Theme</b><br>
+  Building security, stability and personal foundations.</p>
+  `;
+}
+  else if(lagna === 2 && sunHouse === 2){
+  result += "<h3>Taurus Ascendant – Sun in 2nd House</h3>";
+  result += `
+  <p><b>4th Lord in House of Wealth</b><br>
+  Wealth connected with property, land, education and family assets.</p>
+  <p><b>Speech</b><br>
+  Authoritative and confident communication.</p>
+  <p><b>Life Theme</b><br>
+  Wealth through knowledge, family and property.</p>
+  `;
+}
+  else if(lagna === 2 && sunHouse === 3){
+  result += "<h3>Taurus Ascendant – Sun in 3rd House</h3>";
+  result += `
+  <p><b>Self Effort</b><br>
+  Strong courage and initiative.</p>
+  <p><b>Communication</b><br>
+  Influential writing or speaking ability.</p>
+  <p><b>Life Theme</b><br>
+  Growth through self-effort and communication.</p>
+  `;
+}
+  else if(lagna === 2 && sunHouse === 4){
+  result += "<h3>Taurus Ascendant – Sun in 4th House (Own Sign)</h3>";
+  result += `
+  <p><b>Very Strong Placement</b><br>
+  Property, vehicles and domestic authority.</p>
+  <p><b>Emotional Strength</b><br>
+  Strong inner confidence and pride.</p>
+  <p><b>Life Theme</b><br>
+  Building strong foundations and assets.</p>
+  `;
+    }
+    else if(lagna === 2 && sunHouse === 5){
+  result += "<h3>Taurus Ascendant – Sun in 5th House</h3>";
+  result += `
+  <p><b>Intelligence</b><br>
+  Analytical and practical thinking.</p>
+  <p><b>Children & Creativity</b><br>
+  Strong focus on education and creativity.</p>
+  <p><b>Life Theme</b><br>
+  Growth through knowledge and intellect.</p>
+  `;
+}
+  else if(lagna === 2 && sunHouse === 6){
+  result += "<h3>Taurus Ascendant – Sun in 6th House (Debilitated)</h3>";
+  result += `
+  <p><b>Challenges</b><br>
+  Work stress and competition may increase.</p>
+  <p><b>Service</b><br>
+  Growth through hard work and discipline.</p>
+  <p><b>Life Theme</b><br>
+  Victory through persistence.</p>
+  `;
+}
+    else if(lagna === 2 && sunHouse === 7){
+  result += "<h3>Taurus Ascendant – Sun in 7th House</h3>";
+  result += `
+  <p><b>Partnerships</b><br>
+  Strong influence in business or marriage.</p>
+  <p><b>Public Image</b><br>
+  Recognition through public dealings.</p>
+  <p><b>Life Theme</b><br>
+  Growth through partnerships.</p>
+  `;
+}
+  else if(lagna === 2 && sunHouse === 8){
+  result += "<h3>Taurus Ascendant – Sun in 8th House</h3>";
+  result += `
+  <p><b>Transformation</b><br>
+  Interest in hidden knowledge and research.</p>
+  <p><b>Life Theme</b><br>
+  Deep life transformations.</p>
+  `;
+      }
+
+  else if(lagna === 2 && sunHouse === 9){
+  result += "<h3>Taurus Ascendant – Sun in 9th House</h3>";
+  result += `
+  <p><b>Fortune & Luck</b><br>
+  Growth through travel and higher knowledge.</p>
+  <p><b>Life Theme</b><br>
+  Destiny supports long-term growth.</p>
+  `;
+  } 
+  else if(lagna === 2 && sunHouse === 10){
+  result += "<h3>Taurus Ascendant – Sun in 10th House</h3>";
+  result += `
+  <p><b>Career Focus</b><br>
+  Strong ambition and leadership at workplace.</p>
+  <p><b>Life Theme</b><br>
+  Public recognition and career success.</p>
+  `;
+    }
+  else if(lagna === 2 && sunHouse === 11){
+  result += "<h3>Taurus Ascendant – Sun in 11th House</h3>";
+  result += `
+  <p><b>Income & Gains</b><br>
+  Strong earning potential.</p>
+  <p><b>Life Theme</b><br>
+  Gains through social networks.</p>
+  `;
+}
+  else if(lagna === 2 && sunHouse === 12){
+  result += "<h3>Taurus Ascendant – Sun in 12th House (Exalted)</h3>";
+  result += `
+  <p><b>Foreign & Spiritual Growth</b><br>
+  Foreign connections and spiritual growth.</p>
+  <p><b>Life Theme</b><br>
+  Success in foreign lands and inner evolution.</p>
+  `;
+}
+  // =====================================================
   // FALLBACK
   // =====================================================
   else {
