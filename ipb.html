@@ -6,37 +6,58 @@
 
 <style>
 body{
-  font-family: Arial;
-  background:#111;
-  color:#fff;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#0e0e0e;
+  color:white;
   text-align:center;
+  margin:0;
+  padding-top:60px;
+}
+
+h1{
+  margin-bottom:30px;
 }
 
 input{
-  padding:10px;
+  padding:12px;
   margin:10px;
-  width:80px;
+  width:90px;
   text-align:center;
   font-size:18px;
+  border-radius:6px;
+  border:none;
 }
 
 button{
-  padding:12px 25px;
+  padding:14px 28px;
   font-size:18px;
   background:#00ffa6;
   border:none;
+  border-radius:8px;
   cursor:pointer;
+  box-shadow:0 0 20px rgba(0,255,166,0.3);
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+#error{
+  color:#ff7272;
+  margin-top:15px;
 }
 
 #result{
   margin-top:30px;
-  width:70%;
+  width:85%;
+  max-width:600px;
   margin-left:auto;
   margin-right:auto;
   text-align:left;
   background:#1c1c1c;
-  padding:20px;
-  border-radius:10px;
+  padding:25px;
+  border-radius:12px;
+  line-height:1.6;
 }
 </style>
 </head>
@@ -45,15 +66,16 @@ button{
 
 <h1>☀️ Sun Interpretation Lab</h1>
 
-<h2>Lagna (1–12)</h2>
-<input id="lagna">
+<h3>Lagna (1–12)</h3>
+<input id="lagna" type="number" min="1" max="12">
 
-<h2>Sun House (1–12)</h2>
-<input id="sunHouse">
+<h3>Sun House (1–12)</h3>
+<input id="sunHouse" type="number" min="1" max="12">
 
 <br><br>
 <button onclick="interpret()">Test Sun Rule</button>
 
+<div id="error"></div>
 <div id="result"></div>
 
 <script src="./sunTest.js"></script>
