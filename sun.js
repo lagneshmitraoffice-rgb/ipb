@@ -72,7 +72,37 @@ window.interpret = function () {
     Wealth creation through intellect, speech and personal authority.</p>
     `;
   }
+ // =====================================================
+// ♈ ARIES LAGNA + SUN IN 3RD HOUSE
+// =====================================================
+else if(lagna === 1 && sunHouse === 3){
 
+  result += "<h3>Aries Ascendant – Sun in 3rd House</h3>";
+
+  result += `
+  <p><b>5th Lord in House of Courage</b><br>
+  The Sun as 5th lord placed in the 3rd house connects intelligence 
+  with courage, communication and initiative.</p>
+
+  <p><b>Courage & Initiative</b><br>
+  Strong self-initiative and fearless approach to life. 
+  The native prefers taking action rather than waiting.</p>
+
+  <p><b>Communication Power</b><br>
+  Strong expression skills, persuasive communication and 
+  influential writing or speaking ability.</p>
+
+  <p><b>Entrepreneurial Ability</b><br>
+  This placement supports self-effort, entrepreneurship 
+  and independent ventures.</p>
+
+  <p><b>Siblings & Competition</b><br>
+  Competitive nature with siblings or peers may be seen.</p>
+
+  <p><b>Life Theme</b><br>
+  Success through self-effort, courage and communication.</p>
+  `;
+}
   // =====================================================
   // FALLBACK
   // =====================================================
