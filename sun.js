@@ -16,7 +16,7 @@ window.interpret = function () {
   // =====================================================
 
   if(lagna === 1 && sunHouse === 1){ result += "<h3>Aries – Sun 1H (Exalted)</h3><p>Powerful leadership personality.</p>"; }
-  else if(lagna === 1 && sunHouse === 2){ result += "<h3>Aries – Sun 2H</h3><p>Wealth via intelligence & speech.</p>"; }
+  else if(lagna === 1 && sunHouse === 2){ result += "<h3>Aries – Sun 2H</h3><p>Wealth via intelligence & speech dhould be faster.</p>"; }
   else if(lagna === 1 && sunHouse === 3){ result += "<h3>Aries – Sun 3H</h3><p>Courage & communication success.</p>"; }
   else if(lagna === 1 && sunHouse === 4){ result += "<h3>Aries – Sun 4H</h3><p>Property & domestic authority.</p>"; }
   else if(lagna === 1 && sunHouse === 5){ result += "<h3>Aries – Sun 5H</h3><p>Creative brilliance & fame.</p>"; }
