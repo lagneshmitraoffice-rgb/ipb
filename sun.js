@@ -708,7 +708,7 @@ else if(lagna === 6 && sunHouse === 11){
 else if(lagna === 6 && sunHouse === 12){
   result += "<h3>Virgo Ascendant – Sun in 12th House</h3>";
   result += `<p>Strong spiritual growth and detachment.</p>`;
-}
+
   // =====================================================
 // ♎ LIBRA LAGNA (7) – SUN IN ALL HOUSES
 // Sun = 11th lord (income, gains, networks)
