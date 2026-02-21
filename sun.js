@@ -710,6 +710,394 @@ else if(lagna === 6 && sunHouse === 12){
   result += `<p>Strong spiritual growth and detachment.</p>`;
 }
   // =====================================================
+// ♎ LIBRA LAGNA (7) – SUN IN ALL HOUSES
+// Sun = 11th lord (income, gains, networks)
+// Sun debilitated in Libra
+// =====================================================
+
+else if(lagna === 7 && sunHouse === 1){
+  result += "<h3>Libra Ascendant – Sun in 1st House</h3>";
+  result += `<p>Self-identity tied to recognition and social approval.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 2){
+  result += "<h3>Libra Ascendant – Sun in 2nd House</h3>";
+  result += `<p>Income supports family and financial stability.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 3){
+  result += "<h3>Libra Ascendant – Sun in 3rd House</h3>";
+  result += `<p>Gains through communication and self-effort.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 4){
+  result += "<h3>Libra Ascendant – Sun in 4th House</h3>";
+  result += `<p>Income connected to property and home comforts.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 5){
+  result += "<h3>Libra Ascendant – Sun in 5th House</h3>";
+  result += `<p>Gains through creativity and education.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 6){
+  result += "<h3>Libra Ascendant – Sun in 6th House</h3>";
+  result += `<p>Success in competition and professional struggles.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 7){
+  result += "<h3>Libra Ascendant – Sun in 7th House</h3>";
+  result += `<p>Ambitious partner and strong social connections.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 8){
+  result += "<h3>Libra Ascendant – Sun in 8th House</h3>";
+  result += `<p>Sudden gains and transformative life events.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 9){
+  result += "<h3>Libra Ascendant – Sun in 9th House</h3>";
+  result += `<p>Fortune through mentors and long-distance travel.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 10){
+  result += "<h3>Libra Ascendant – Sun in 10th House</h3>";
+  result += `<p>Career brings recognition and financial gains.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 11){
+  result += "<h3>Libra Ascendant – Sun in 11th House</h3>";
+  result += `<p>Sun in own house gives strong income and networks.</p>`;
+}
+
+else if(lagna === 7 && sunHouse === 12){
+  result += "<h3>Libra Ascendant – Sun in 12th House</h3>";
+  result += `<p>Income linked to foreign lands and expenses.</p>`;
+}
+
+  // =====================================================
+// ♏ SCORPIO LAGNA (8) – SUN IN ALL HOUSES
+// Sun = 10th lord (career, status, authority)
+// =====================================================
+
+else if(lagna === 8 && sunHouse === 1){
+  result += "<h3>Scorpio Ascendant – Sun in 1st House</h3>";
+  result += `<p>Career and authority shape personality.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 2){
+  result += "<h3>Scorpio Ascendant – Sun in 2nd House</h3>";
+  result += `<p>Career brings wealth and financial stability.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 3){
+  result += "<h3>Scorpio Ascendant – Sun in 3rd House</h3>";
+  result += `<p>Leadership in communication and self-effort.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 4){
+  result += "<h3>Scorpio Ascendant – Sun in 4th House</h3>";
+  result += `<p>Career linked to property and homeland.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 5){
+  result += "<h3>Scorpio Ascendant – Sun in 5th House</h3>";
+  result += `<p>Creative leadership and intelligence.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 6){
+  result += "<h3>Scorpio Ascendant – Sun in 6th House</h3>";
+  result += `<p>Strong work ethic and ability to defeat rivals.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 7){
+  result += "<h3>Scorpio Ascendant – Sun in 7th House</h3>";
+  result += `<p>Career influenced by partnerships.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 8){
+  result += "<h3>Scorpio Ascendant – Sun in 8th House</h3>";
+  result += `<p>Career transformation and sudden changes.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 9){
+  result += "<h3>Scorpio Ascendant – Sun in 9th House</h3>";
+  result += `<p>Fortune supports career growth.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 10){
+  result += "<h3>Scorpio Ascendant – Sun in 10th House</h3>";
+  result += `<p>Sun in own house gives powerful career success.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 11){
+  result += "<h3>Scorpio Ascendant – Sun in 11th House</h3>";
+  result += `<p>Income through career and authority.</p>`;
+}
+
+else if(lagna === 8 && sunHouse === 12){
+  result += "<h3>Scorpio Ascendant – Sun in 12th House</h3>";
+  result += `<p>Foreign career opportunities.</p>`;
+}
+  // =====================================================
+// ♐ SAGITTARIUS LAGNA (9) – SUN IN ALL HOUSES
+// Sun = 9th lord (luck, dharma, father)
+// =====================================================
+
+else if(lagna === 9 && sunHouse === 1){
+  result += "<h3>Sagittarius Ascendant – Sun in 1st House</h3>";
+  result += `<p>Fortunate personality and strong ethics.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 2){
+  result += "<h3>Sagittarius Ascendant – Sun in 2nd House</h3>";
+  result += `<p>Family and wealth supported by luck.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 3){
+  result += "<h3>Sagittarius Ascendant – Sun in 3rd House</h3>";
+  result += `<p>Success through self-effort and travel.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 4){
+  result += "<h3>Sagittarius Ascendant – Sun in 4th House</h3>";
+  result += `<p>Fortune supports home and property.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 5){
+  result += "<h3>Sagittarius Ascendant – Sun in 5th House</h3>";
+  result += `<p>Creative intelligence and spiritual growth.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 6){
+  result += "<h3>Sagittarius Ascendant – Sun in 6th House</h3>";
+  result += `<p>Victory over enemies through luck.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 7){
+  result += "<h3>Sagittarius Ascendant – Sun in 7th House</h3>";
+  result += `<p>Fortunate partnerships and supportive spouse.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 8){
+  result += "<h3>Sagittarius Ascendant – Sun in 8th House</h3>";
+  result += `<p>Deep spiritual transformation.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 9){
+  result += "<h3>Sagittarius Ascendant – Sun in 9th House</h3>";
+  result += `<p>Sun in own house gives strong luck and dharma.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 10){
+  result += "<h3>Sagittarius Ascendant – Sun in 10th House</h3>";
+  result += `<p>Career supported by luck and authority.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 11){
+  result += "<h3>Sagittarius Ascendant – Sun in 11th House</h3>";
+  result += `<p>Gains through mentors and social networks.</p>`;
+}
+
+else if(lagna === 9 && sunHouse === 12){
+  result += "<h3>Sagittarius Ascendant – Sun in 12th House</h3>";
+  result += `<p>Foreign travel and spiritual growth.</p>`;
+}
+  // =====================================================
+// ♑ CAPRICORN LAGNA (10) – SUN IN ALL HOUSES
+// Sun = 8th lord (transformation, sudden events)
+// =====================================================
+
+else if(lagna === 10 && sunHouse === 1){
+  result += "<h3>Capricorn Ascendant – Sun in 1st House</h3>";
+  result += `<p>Transformative personality and intense life path.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 2){
+  result += "<h3>Capricorn Ascendant – Sun in 2nd House</h3>";
+  result += `<p>Financial ups and downs and inheritance themes.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 3){
+  result += "<h3>Capricorn Ascendant – Sun in 3rd House</h3>";
+  result += `<p>Strong courage during life challenges.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 4){
+  result += "<h3>Capricorn Ascendant – Sun in 4th House</h3>";
+  result += `<p>Sudden changes related to home and property.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 5){
+  result += "<h3>Capricorn Ascendant – Sun in 5th House</h3>";
+  result += `<p>Deep and transformative creative expression.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 6){
+  result += "<h3>Capricorn Ascendant – Sun in 6th House</h3>";
+  result += `<p>Victory over enemies through resilience.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 7){
+  result += "<h3>Capricorn Ascendant – Sun in 7th House</h3>";
+  result += `<p>Transformative partnerships.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 8){
+  result += "<h3>Capricorn Ascendant – Sun in 8th House</h3>";
+  result += `<p>Sun in own house intensifies transformation and longevity themes.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 9){
+  result += "<h3>Capricorn Ascendant – Sun in 9th House</h3>";
+  result += `<p>Transformation through travel and spirituality.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 10){
+  result += "<h3>Capricorn Ascendant – Sun in 10th House</h3>";
+  result += `<p>Career influenced by sudden changes.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 11){
+  result += "<h3>Capricorn Ascendant – Sun in 11th House</h3>";
+  result += `<p>Sudden gains and powerful networks.</p>`;
+}
+
+else if(lagna === 10 && sunHouse === 12){
+  result += "<h3>Capricorn Ascendant – Sun in 12th House</h3>";
+  result += `<p>Hidden transformations and spiritual growth.</p>`;
+    }
+
+    // =====================================================
+// ♒ AQUARIUS LAGNA (11) – SUN IN ALL HOUSES
+// Sun = 7th lord (marriage, partnerships)
+// =====================================================
+
+else if(lagna === 11 && sunHouse === 1){
+  result += "<h3>Aquarius Ascendant – Sun in 1st House</h3>";
+  result += `<p>Partnerships strongly shape identity.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 2){
+  result += "<h3>Aquarius Ascendant – Sun in 2nd House</h3>";
+  result += `<p>Spouse contributes to finances.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 3){
+  result += "<h3>Aquarius Ascendant – Sun in 3rd House</h3>";
+  result += `<p>Partnerships involve communication and travel.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 4){
+  result += "<h3>Aquarius Ascendant – Sun in 4th House</h3>";
+  result += `<p>Marriage influences home life.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 5){
+  result += "<h3>Aquarius Ascendant – Sun in 5th House</h3>";
+  result += `<p>Romantic and creative partnerships.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 6){
+  result += "<h3>Aquarius Ascendant – Sun in 6th House</h3>";
+  result += `<p>Challenges in partnerships require effort.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 7){
+  result += "<h3>Aquarius Ascendant – Sun in 7th House</h3>";
+  result += `<p>Sun in own house gives strong and dominant partner.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 8){
+  result += "<h3>Aquarius Ascendant – Sun in 8th House</h3>";
+  result += `<p>Transformative marriage experiences.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 9){
+  result += "<h3>Aquarius Ascendant – Sun in 9th House</h3>";
+  result += `<p>Fortunate partnerships and travel.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 10){
+  result += "<h3>Aquarius Ascendant – Sun in 10th House</h3>";
+  result += `<p>Partnerships influence career success.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 11){
+  result += "<h3>Aquarius Ascendant – Sun in 11th House</h3>";
+  result += `<p>Gains through spouse and networks.</p>`;
+}
+
+else if(lagna === 11 && sunHouse === 12){
+  result += "<h3>Aquarius Ascendant – Sun in 12th House</h3>";
+  result += `<p>Foreign or distant partnerships.</p>`;
+            }
+
+    // =====================================================
+// ♓ PISCES LAGNA (12) – SUN IN ALL HOUSES
+// Sun = 6th lord (competition, enemies, service)
+// =====================================================
+
+else if(lagna === 12 && sunHouse === 1){
+  result += "<h3>Pisces Ascendant – Sun in 1st House</h3>";
+  result += `<p>Service-oriented personality and competitive nature.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 2){
+  result += "<h3>Pisces Ascendant – Sun in 2nd House</h3>";
+  result += `<p>Wealth through service and hard work.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 3){
+  result += "<h3>Pisces Ascendant – Sun in 3rd House</h3>";
+  result += `<p>Strong courage and self-effort.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 4){
+  result += "<h3>Pisces Ascendant – Sun in 4th House</h3>";
+  result += `<p>Work responsibilities influence home life.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 5){
+  result += "<h3>Pisces Ascendant – Sun in 5th House</h3>";
+  result += `<p>Competitive creativity and intelligence.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 6){
+  result += "<h3>Pisces Ascendant – Sun in 6th House</h3>";
+  result += `<p>Sun in own house gives strong victory over enemies.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 7){
+  result += "<h3>Pisces Ascendant – Sun in 7th House</h3>";
+  result += `<p>Work-oriented partnerships.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 8){
+  result += "<h3>Pisces Ascendant – Sun in 8th House</h3>";
+  result += `<p>Hidden struggles and deep transformation.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 9){
+  result += "<h3>Pisces Ascendant – Sun in 9th House</h3>";
+  result += `<p>Service linked to travel and spirituality.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 10){
+  result += "<h3>Pisces Ascendant – Sun in 10th House</h3>";
+  result += `<p>Career success through service and leadership.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 11){
+  result += "<h3>Pisces Ascendant – Sun in 11th House</h3>";
+  result += `<p>Gains through competition and hard work.</p>`;
+}
+
+else if(lagna === 12 && sunHouse === 12){
+  result += "<h3>Pisces Ascendant – Sun in 12th House</h3>";
+  result += `<p>Spiritual service and detachment.</p>`;
+}
+  // =====================================================
   // FALLBACK
   // =====================================================
   else {
