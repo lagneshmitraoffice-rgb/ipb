@@ -411,6 +411,98 @@ else if(lagna === 2 && sunHouse === 1){
   Success in foreign lands and inner evolution.</p>
   `;
 }
+    // =====================================================
+// ♊ GEMINI LAGNA (3) – SUN IN ALL HOUSES
+// Sun = 3rd lord for Gemini ascendant
+// Themes: courage, effort, communication, skills
+// =====================================================
+
+// Sun in 1st
+else if(lagna === 3 && sunHouse === 1){
+  result += "<h3>Gemini Ascendant – Sun in 1st House</h3>";
+  result += `<p><b>3rd Lord in Lagna</b><br>
+  Strong communication skills and confident personality.</p>
+  <p><b>Life Theme</b><br>Growth through self-effort and expression.</p>`;
+}
+
+// Sun in 2nd
+else if(lagna === 3 && sunHouse === 2){
+  result += "<h3>Gemini Ascendant – Sun in 2nd House</h3>";
+  result += `<p><b>Speech & Wealth</b><br>
+  Income through communication, speaking or skills.</p>
+  <p><b>Life Theme</b><br>Self-effort brings financial growth.</p>`;
+}
+
+// Sun in 3rd
+else if(lagna === 3 && sunHouse === 3){
+  result += "<h3>Gemini Ascendant – Sun in 3rd House</h3>";
+  result += `<p><b>Sun in Own House</b><br>
+  Strong courage, leadership and initiative.</p>
+  <p><b>Life Theme</b><br>Self-made success.</p>`;
+}
+
+// Sun in 4th
+else if(lagna === 3 && sunHouse === 4){
+  result += "<h3>Gemini Ascendant – Sun in 4th House</h3>";
+  result += `<p><b>Home & Stability</b><br>
+  Efforts focus on property and inner security.</p>`;
+}
+
+// Sun in 5th
+else if(lagna === 3 && sunHouse === 5){
+  result += "<h3>Gemini Ascendant – Sun in 5th House</h3>";
+  result += `<p><b>Creativity & Intelligence</b><br>
+  Creative self-expression and leadership in ideas.</p>`;
+}
+
+// Sun in 6th
+else if(lagna === 3 && sunHouse === 6){
+  result += "<h3>Gemini Ascendant – Sun in 6th House</h3>";
+  result += `<p><b>Competition</b><br>
+  Strong ability to defeat rivals through effort.</p>`;
+}
+
+// Sun in 7th
+else if(lagna === 3 && sunHouse === 7){
+  result += "<h3>Gemini Ascendant – Sun in 7th House</h3>";
+  result += `<p><b>Relationships</b><br>
+  Strong personality influences partnerships.</p>`;
+}
+
+// Sun in 8th
+else if(lagna === 3 && sunHouse === 8){
+  result += "<h3>Gemini Ascendant – Sun in 8th House</h3>";
+  result += `<p><b>Transformation</b><br>
+  Sudden life changes and deep research interest.</p>`;
+}
+
+// Sun in 9th
+else if(lagna === 3 && sunHouse === 9){
+  result += "<h3>Gemini Ascendant – Sun in 9th House</h3>";
+  result += `<p><b>Luck & Travel</b><br>
+  Growth through travel, learning and self-effort.</p>`;
+}
+
+// Sun in 10th
+else if(lagna === 3 && sunHouse === 10){
+  result += "<h3>Gemini Ascendant – Sun in 10th House</h3>";
+  result += `<p><b>Career</b><br>
+  Recognition through communication skills.</p>`;
+}
+
+// Sun in 11th
+else if(lagna === 3 && sunHouse === 11){
+  result += "<h3>Gemini Ascendant – Sun in 11th House</h3>";
+  result += `<p><b>Income & Network</b><br>
+  Gains through contacts and self-initiative.</p>`;
+}
+
+// Sun in 12th
+else if(lagna === 3 && sunHouse === 12){
+  result += "<h3>Gemini Ascendant – Sun in 12th House</h3>";
+  result += `<p><b>Foreign Connection</b><br>
+  Efforts linked to foreign lands or spiritual growth.</p>`;
+}
   // =====================================================
   // FALLBACK
   // =====================================================
