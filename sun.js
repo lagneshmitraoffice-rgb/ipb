@@ -504,6 +504,212 @@ else if(lagna === 3 && sunHouse === 12){
   Efforts linked to foreign lands or spiritual growth.</p>`;
 }
   // =====================================================
+// ♋ CANCER LAGNA (4) – SUN IN ALL HOUSES
+// Sun = 2nd lord (wealth, speech, family)
+// =====================================================
+
+// Sun in 1st
+else if(lagna === 4 && sunHouse === 1){
+  result += "<h3>Cancer Ascendant – Sun in 1st House</h3>";
+  result += `<p>Wealth and family influence personality. Strong dignity and self-respect.</p>`;
+}
+
+// Sun in 2nd
+else if(lagna === 4 && sunHouse === 2){
+  result += "<h3>Cancer Ascendant – Sun in 2nd House</h3>";
+  result += `<p>Sun in own house strengthens finances, speech and family pride.</p>`;
+}
+
+// Sun in 3rd
+else if(lagna === 4 && sunHouse === 3){
+  result += "<h3>Cancer Ascendant – Sun in 3rd House</h3>";
+  result += `<p>Income through courage, communication and self-effort.</p>`;
+}
+
+// Sun in 4th
+else if(lagna === 4 && sunHouse === 4){
+  result += "<h3>Cancer Ascendant – Sun in 4th House</h3>";
+  result += `<p>Focus on property, home and inner security.</p>`;
+}
+
+// Sun in 5th
+else if(lagna === 4 && sunHouse === 5){
+  result += "<h3>Cancer Ascendant – Sun in 5th House</h3>";
+  result += `<p>Creative intelligence supports wealth and recognition.</p>`;
+}
+
+// Sun in 6th
+else if(lagna === 4 && sunHouse === 6){
+  result += "<h3>Cancer Ascendant – Sun in 6th House</h3>";
+  result += `<p>Victory over enemies and strong work ethic.</p>`;
+}
+
+// Sun in 7th
+else if(lagna === 4 && sunHouse === 7){
+  result += "<h3>Cancer Ascendant – Sun in 7th House</h3>";
+  result += `<p>Partner may be strong-willed and authoritative.</p>`;
+}
+
+// Sun in 8th
+else if(lagna === 4 && sunHouse === 8){
+  result += "<h3>Cancer Ascendant – Sun in 8th House</h3>";
+  result += `<p>Financial ups and downs and transformation through family karma.</p>`;
+}
+
+// Sun in 9th
+else if(lagna === 4 && sunHouse === 9){
+  result += "<h3>Cancer Ascendant – Sun in 9th House</h3>";
+  result += `<p>Fortune and wealth through father, mentors and travel.</p>`;
+}
+
+// Sun in 10th
+else if(lagna === 4 && sunHouse === 10){
+  result += "<h3>Cancer Ascendant – Sun in 10th House</h3>";
+  result += `<p>Strong career recognition and leadership potential.</p>`;
+}
+
+// Sun in 11th
+else if(lagna === 4 && sunHouse === 11){
+  result += "<h3>Cancer Ascendant – Sun in 11th House</h3>";
+  result += `<p>Financial gains through authority and networks.</p>`;
+}
+
+// Sun in 12th
+else if(lagna === 4 && sunHouse === 12){
+  result += "<h3>Cancer Ascendant – Sun in 12th House</h3>";
+  result += `<p>Expenses on luxury, travel and foreign lands.</p>`;
+}
+
+  // =====================================================
+// ♌ LEO LAGNA (5) – SUN IN ALL HOUSES
+// Sun = Lagna lord (identity, vitality)
+// =====================================================
+
+else if(lagna === 5 && sunHouse === 1){
+  result += "<h3>Leo Ascendant – Sun in 1st House</h3>";
+  result += `<p>Very strong personality, leadership and authority.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 2){
+  result += "<h3>Leo Ascendant – Sun in 2nd House</h3>";
+  result += `<p>Confidence in speech and financial independence.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 3){
+  result += "<h3>Leo Ascendant – Sun in 3rd House</h3>";
+  result += `<p>Strong courage and self-made success.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 4){
+  result += "<h3>Leo Ascendant – Sun in 4th House</h3>";
+  result += `<p>Strong desire for property and inner stability.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 5){
+  result += "<h3>Leo Ascendant – Sun in 5th House</h3>";
+  result += `<p>Creative leadership and strong intelligence.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 6){
+  result += "<h3>Leo Ascendant – Sun in 6th House</h3>";
+  result += `<p>Strong ability to defeat enemies and competition.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 7){
+  result += "<h3>Leo Ascendant – Sun in 7th House</h3>";
+  result += `<p>Dominant role in partnerships and marriage.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 8){
+  result += "<h3>Leo Ascendant – Sun in 8th House</h3>";
+  result += `<p>Transformative life experiences and hidden power.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 9){
+  result += "<h3>Leo Ascendant – Sun in 9th House</h3>";
+  result += `<p>Strong luck, dharma and leadership in beliefs.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 10){
+  result += "<h3>Leo Ascendant – Sun in 10th House</h3>";
+  result += `<p>Powerful career and public recognition.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 11){
+  result += "<h3>Leo Ascendant – Sun in 11th House</h3>";
+  result += `<p>Strong gains, networks and ambitions.</p>`;
+}
+
+else if(lagna === 5 && sunHouse === 12){
+  result += "<h3>Leo Ascendant – Sun in 12th House</h3>";
+  result += `<p>Spiritual growth and foreign connections.</p>`;
+}
+
+  // =====================================================
+// ♍ VIRGO LAGNA (6) – SUN IN ALL HOUSES
+// Sun = 12th lord (expenses, foreign, spirituality)
+// =====================================================
+
+else if(lagna === 6 && sunHouse === 1){
+  result += "<h3>Virgo Ascendant – Sun in 1st House</h3>";
+  result += `<p>Spiritual personality and foreign connections.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 2){
+  result += "<h3>Virgo Ascendant – Sun in 2nd House</h3>";
+  result += `<p>Expenses related to family and luxury.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 3){
+  result += "<h3>Virgo Ascendant – Sun in 3rd House</h3>";
+  result += `<p>Travel and foreign links through efforts.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 4){
+  result += "<h3>Virgo Ascendant – Sun in 4th House</h3>";
+  result += `<p>Living away from birthplace possible.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 5){
+  result += "<h3>Virgo Ascendant – Sun in 5th House</h3>";
+  result += `<p>Creative pursuits linked to spirituality.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 6){
+  result += "<h3>Virgo Ascendant – Sun in 6th House</h3>";
+  result += `<p>Victory over enemies and service-oriented work.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 7){
+  result += "<h3>Virgo Ascendant – Sun in 7th House</h3>";
+  result += `<p>Foreign spouse or distant partnerships.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 8){
+  result += "<h3>Virgo Ascendant – Sun in 8th House</h3>";
+  result += `<p>Strong interest in research and occult.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 9){
+  result += "<h3>Virgo Ascendant – Sun in 9th House</h3>";
+  result += `<p>Foreign travel and spiritual learning.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 10){
+  result += "<h3>Virgo Ascendant – Sun in 10th House</h3>";
+  result += `<p>Career linked to foreign lands or hospitals.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 11){
+  result += "<h3>Virgo Ascendant – Sun in 11th House</h3>";
+  result += `<p>Gains from foreign sources.</p>`;
+}
+
+else if(lagna === 6 && sunHouse === 12){
+  result += "<h3>Virgo Ascendant – Sun in 12th House</h3>";
+  result += `<p>Strong spiritual growth and detachment.</p>`;
+}
+  // =====================================================
   // FALLBACK
   // =====================================================
   else {
